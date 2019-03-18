@@ -6,21 +6,16 @@ account = {
 }
 
 octopi_spec = {
-    "auth" : {
-       "register" : {"path" : "/api/v1/auth/request"},
-       "check" : {"path" : "/api/v1/auth/check"}
-    },
-
     "status" : {
-        "path" : "/api/v1/printer/status"
+        "path" : "/api/printer"
     },
     
     "head" : {
-        "path" : "/api/v1/printer/heads"
+        "path" : "/api/printer"
     },
 
     "bed" : {
-        "path" : "/api/v1/printer/bed"
+        "path" : "/api/printer"
     }
 }
 
